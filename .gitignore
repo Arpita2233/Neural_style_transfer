@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+venvadain/
+.venv/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded Images
+static/uploads/*
+
+# Keep folder structure
+!static/uploads/.gitkeep
+
+# Model Checkpoints
+*.pth
+*.pt
+
+# Training outputs
+experiment/
+runs/
+checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
